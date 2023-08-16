@@ -18,27 +18,73 @@
     <div id="main-container" class="grid grid-cols-[225px_minmax(600px,_3fr)]">
       <div
         id="header"
-        class="grid grid-cols-[minmax(500px,_2fr)_minmax(250px,_1fr)] col-start-2 grid-rows-2 row-start-1 p-6 px-10 bg-sky-300"
+        class="grid grid-cols-[minmax(500px,_2fr)_minmax(250px,_1fr)] col-start-2 grid-rows-2 row-start-1 p-6 px-10"
       >
-        <div class="flex pr-6">
-          <span class="pr-4 text-3xl text-white material-symbols-rounded">
+        <div class="flex items-center pr-6">
+          <span class="pr-4 text-3xl font-medium material-symbols-rounded">
             search </span
-          ><input type="search" class="flex-1 rounded-3xl" />
+          ><input type="search" class="flex-1 h-10 rounded-3xl bg-slate-200" />
         </div>
-        <div>Morgan Oakley</div>
-        <div>Hi there, Morgan Oakley (@Morgan Oakly)</div>
-        <div>
-          <ul class="flex">
-            <li>New</li>
-            <li>Upload</li>
-            <li>Share</li>
+        <div class="flex items-center justify-evenly">
+          <span class="mr-6 text-3xl font-medium material-symbols-rounded">
+            notifications_active
+          </span>
+          <div class="flex items-center">
+            <div
+              class="flex items-center justify-center flex-none w-16 h-16 mr-6 rounded-full bg-violet-700"
+            >
+              <img
+                src="./images/raccoon.png"
+                alt="raccoon"
+                class="w-auto h-10"
+              />
+            </div>
+            <p class="text-xl font-bold">Morgan Oakley</p>
+          </div>
+        </div>
+
+        <div class="flex items-center mt-6">
+          <div
+            class="flex items-center justify-center flex-none w-20 h-20 mr-6 rounded-full bg-violet-700"
+          >
+            <img src="./images/raccoon.png" alt="raccoon" class="w-auto h-14" />
+          </div>
+          <div class="flex flex-col">
+            <p class="font-bold">Hi there,</p>
+            <p class="text-2xl font-bold">Morgan Oakley (@Morgan Oakly)</p>
+          </div>
+        </div>
+
+        <div class="flex items-center mt-6">
+          <ul class="flex items-center w-full justify-evenly">
+            <li>
+              <button
+                class="py-3 font-bold text-white px-9 rounded-3xl bg-violet-700"
+              >
+                New
+              </button>
+            </li>
+            <li>
+              <button
+                class="py-3 mx-4 font-bold text-white px-9 rounded-3xl bg-violet-700"
+              >
+                Upload
+              </button>
+            </li>
+            <li>
+              <button
+                class="py-3 font-bold text-white px-9 rounded-3xl bg-violet-700"
+              >
+                Share
+              </button>
+            </li>
           </ul>
         </div>
       </div>
 
       <div id="sidebar" class="col-start-1 row-span-2 bg-violet-700">
-        <h1 class="flex p-4 text-2xl font-bold text-white">
-          <span class="pr-2 text-2xl material-symbols-rounded">
+        <h1 class="flex items-center p-4 text-2xl font-bold text-white">
+          <span class="pr-2 text-3xl material-symbols-rounded">
             dashboard
           </span>
           Dashboard
@@ -106,7 +152,7 @@
           <h1 class="pb-2 text-xl font-bold">Your Projects</h1>
           <div id="article-grid" class="grid gap-6">
             <div
-              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
+              class="flex flex-col p-6 overflow-auto bg-white border-solid rounded-md border-violet-700 article border-s-8"
             >
               <h1 class="text-lg font-bold">Super Cool Project</h1>
               <p class="limit-text-5">
@@ -125,7 +171,7 @@
             </div>
 
             <div
-              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
+              class="flex flex-col p-6 overflow-auto bg-white border-solid rounded-md border-violet-700 article border-s-8"
             >
               <h1 class="text-lg font-bold">Less Cool Project</h1>
               <p class="limit-text-5">
@@ -145,7 +191,7 @@
             </div>
 
             <div
-              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
+              class="flex flex-col p-6 overflow-auto bg-white border-solid rounded-md border-violet-700 article border-s-8"
             >
               <h1 class="text-lg font-bold">Impossible App</h1>
               <p class="limit-text-5">
@@ -165,7 +211,7 @@
             </div>
 
             <div
-              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
+              class="flex flex-col p-6 overflow-auto bg-white border-solid rounded-md border-violet-700 article border-s-8"
             >
               <h1 class="text-lg font-bold">Easy Peasy App</h1>
               <p class="limit-text-5">
@@ -184,7 +230,7 @@
             </div>
 
             <div
-              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
+              class="flex flex-col p-6 overflow-auto bg-white border-solid rounded-md border-violet-700 article border-s-8"
             >
               <h1 class="text-lg font-bold">Ad Blocker</h1>
               <p class="limit-text-5">
@@ -205,7 +251,7 @@
             </div>
 
             <div
-              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
+              class="flex flex-col p-6 overflow-auto bg-white border-solid rounded-md border-violet-700 article border-s-8"
             >
               <h1 class="text-lg font-bold">Money Maker</h1>
               <p class="limit-text-5">
