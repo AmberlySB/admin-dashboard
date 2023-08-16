@@ -713,6 +713,10 @@ video {
   grid-template-columns: 1fr minmax(600px, 20fr);
 }
 
+.grid-cols-\[1fr_minmax\(600px\2c _25fr\)\] {
+  grid-template-columns: 1fr minmax(600px, 25fr);
+}
+
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
