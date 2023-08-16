@@ -638,6 +638,10 @@ video {
   grid-template-columns: minmax(500px, 2fr) 250px;
 }
 
+.grid-cols-\[minmax\(500px\2c _2fr\)_350px\] {
+  grid-template-columns: minmax(500px, 2fr) 350px;
+}
+
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
