@@ -684,6 +684,11 @@ video {
   width: 100%;
 }
 
+.min-w-fit {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
