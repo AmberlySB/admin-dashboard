@@ -774,10 +774,10 @@ video {
   -webkit-box-orient: vertical;
 }
 
-.limit-text-6 {
+.limit-text-5 {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
 
