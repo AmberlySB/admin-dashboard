@@ -21,7 +21,6 @@
   -webkit-box-orient: vertical;
 }
 
-.icon-40 {
-  font-size: 48px;
-  font-variation-settings: 'OPSZ' 48;
+.icon-fill {
+  font-variation-settings: 'FILL' 1;
 }
