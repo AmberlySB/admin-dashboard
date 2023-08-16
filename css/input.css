@@ -3,12 +3,25 @@
 @tailwind utilities;
 
 #article-grid {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 250px;
 }
 
-.limit-text {
+.limit-text-3 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.limit-text-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.icon-40 {
+  font-size: 48px;
+  font-variation-settings: 'OPSZ' 48;
 }

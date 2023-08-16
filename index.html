@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./main.js" defer></script>
     <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
@@ -41,17 +45,13 @@
 
       <div id="sidebar" class="col-start-1 row-span-2 bg-violet-700">
         <h1 class="flex p-4 text-2xl font-bold text-white">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            class="inline w-8 mr-3 shrink-0 fill-white"
-          >
-            <title>view-dashboard</title>
-            <path
-              d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"
-            />
-          </svg>
+          <span class="pr-2 text-2xl material-symbols-rounded">
+            dashboard
+          </span>
           Dashboard
+          <span class="pl-4 text-2xl material-symbols-rounded">
+            keyboard_tab_rtl
+          </span>
         </h1>
 
         <ul class="p-4">
@@ -174,65 +174,124 @@
           <h1 class="pb-2 text-xl font-bold">Your Projects</h1>
           <div id="article-grid" class="grid gap-6">
             <div
-              class="overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8 h-60"
+              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
             >
-              <h1 class="px-4 pt-6 text-lg font-bold">Super Cool Project</h1>
-              <p class="px-4">
+              <h1 class="text-lg font-bold">Super Cool Project</h1>
+              <p class="limit-text-6">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
                 repudiandae adipisci reiciendis amet debitis repellendus.
               </p>
+              <div class="flex justify-end px-4 mt-auto">
+                <ul class="flex">
+                  <li class="px-3 material-symbols-rounded">heart_plus</li>
+                  <li class="px-3 material-symbols-rounded">add_alert</li>
+                  <li class="px-3 -rotate-90 material-symbols-rounded">
+                    share
+                  </li>
+                </ul>
+              </div>
             </div>
+
             <div
-              class="overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8 h-60"
+              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
             >
-              <h1 class="px-4 pt-6 text-lg font-bold">Less Cool Project</h1>
-              <p class="px-4">
+              <h1 class="text-lg font-bold">Less Cool Project</h1>
+              <p class="limit-text-6">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Doloremque dolorum eos fugiat repudiandae voluptatem
                 exercitationem expedita ipsam ullam.
               </p>
+              <div class="flex justify-end px-4 mt-auto">
+                <ul class="flex">
+                  <li class="px-3 material-symbols-rounded">heart_plus</li>
+                  <li class="px-3 material-symbols-rounded">add_alert</li>
+                  <li class="px-3 -rotate-90 material-symbols-rounded">
+                    share
+                  </li>
+                </ul>
+              </div>
             </div>
+
             <div
-              class="overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8 h-60"
+              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
             >
-              <h1 class="px-4 pt-6 text-lg font-bold">Impossible App</h1>
-              <p class="px-4">
+              <h1 class="text-lg font-bold">Impossible App</h1>
+              <p class="limit-text-6">
                 Odit sit eos unde tenetur atque temporibus, animi similique
                 corrupti asperiores nulla tempora est veniam rerum earum, qui
                 dignissimos quo vero!
               </p>
+              <div class="flex justify-end px-4 mt-auto">
+                <ul class="flex">
+                  <li class="px-3 material-symbols-rounded">heart_plus</li>
+                  <li class="px-3 material-symbols-rounded">add_alert</li>
+                  <li class="px-3 -rotate-90 material-symbols-rounded">
+                    share
+                  </li>
+                </ul>
+              </div>
             </div>
+
             <div
-              class="overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8 h-60"
+              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
             >
-              <h1 class="px-4 pt-6 text-lg font-bold">Easy Peasy App</h1>
-              <p class="px-4">
+              <h1 class="text-lg font-bold">Easy Peasy App</h1>
+              <p class="limit-text-6">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
                 repudiandae adipisci reiciendis amet debitis repellendus.
               </p>
+              <div class="flex justify-end px-4 mt-auto">
+                <ul class="flex">
+                  <li class="px-3 material-symbols-rounded">heart_plus</li>
+                  <li class="px-3 material-symbols-rounded">add_alert</li>
+                  <li class="px-3 -rotate-90 material-symbols-rounded">
+                    share
+                  </li>
+                </ul>
+              </div>
             </div>
+
             <div
-              class="overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8 h-60"
+              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
             >
-              <h1 class="px-4 pt-6 text-lg font-bold">Ad Blocker</h1>
-              <p class="px-4">
+              <h1 class="text-lg font-bold">Ad Blocker</h1>
+              <p class="limit-text-6">
                 Reprehenderit provident iure distinctio, nisi, error tenetur
                 ratione pariatur perferendis ipsum placeat voluptates
                 consequatur? Voluptas reprehenderit explicabo nobis voluptatum
                 asperiores excepturi error ab atque laborum accusamus!
               </p>
+              <div class="flex justify-end px-4 mt-auto">
+                <ul class="flex">
+                  <li class="px-3 material-symbols-rounded">heart_plus</li>
+                  <li class="px-3 material-symbols-rounded">add_alert</li>
+                  <li class="px-3 -rotate-90 material-symbols-rounded">
+                    share
+                  </li>
+                </ul>
+              </div>
             </div>
+
             <div
-              class="overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8 h-60"
+              class="flex flex-col p-6 overflow-auto bg-white border-teal-400 border-solid rounded-md article border-s-8"
             >
-              <h1 class="px-4 pt-6 text-lg font-bold">Money Maker</h1>
-              <p class="px-4">
+              <h1 class="text-lg font-bold">Money Maker</h1>
+              <p class="limit-text-6">
                 Dolor asperiores assumenda, cupiditate harum necessitatibus
                 excepturi veritatis expedita autem obcaecati ducimus quasi
                 cumque. Pariatur architecto perspiciatis dicta vitae a placeat
                 quis veritatis corporis iure laborum, debitis molestiae ullam
                 delectus?
               </p>
+              <div class="flex justify-end px-4 mt-auto">
+                <ul class="flex">
+                  <li class="px-3 material-symbols-rounded">heart_plus</li>
+                  <li class="px-3 material-symbols-rounded">add_alert</li>
+                  <li class="px-3 -rotate-90 material-symbols-rounded">
+                    share
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -247,7 +306,7 @@
               class="self-center w-4/5 border-b-2 border-solid border-slate-200"
             >
               <h1 class="px-4 pt-6 font-bold text-md">Site Maintenance</h1>
-              <p class="px-4 mb-4 text-sm limit-text">
+              <p class="px-4 mb-4 text-sm limit-text-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
                 sed provident tempore modi iste voluptatibus porro debitis
                 beatae? Tenetur repudiandae aliquam enim sint id earum!
@@ -257,7 +316,7 @@
               class="self-center w-4/5 border-b-2 border-solid border-slate-200"
             >
               <h1 class="px-4 pt-6 font-bold text-md">Community Share Day</h1>
-              <p class="px-4 mb-4 text-sm limit-text">
+              <p class="px-4 mb-4 text-sm limit-text-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
                 sed provident tempore modi iste voluptatibus porro debitis
                 beatae? Tenetur repudiandae aliquam enim sint id earum!
@@ -267,7 +326,7 @@
               <h1 class="px-4 pt-6 font-bold text-md">
                 Updated Privacy Policy
               </h1>
-              <p class="px-4 mb-4 text-sm limit-text">
+              <p class="px-4 mb-4 text-sm limit-text-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
                 sed provident tempore modi iste voluptatibus porro debitis
                 beatae? Tenetur repudiandae aliquam enim sint id earum!
